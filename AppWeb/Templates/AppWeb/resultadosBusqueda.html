@@ -5,6 +5,7 @@
 {% endblock %}
 {% block contenidoQueCambia %}
 <h3> Estamos buscando los cursos de la comision {{camada}}</h3>
+
 {% if cursos %}
 <ul>
   {% for curso in cursos %}
@@ -13,10 +14,5 @@
   <br>
   {% endfor%}
 </ul>
-
-{% else %}
-</p>No hay datos con esa descripcion</p>
-
-{% endif %}
 
 {% endblock %}
