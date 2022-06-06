@@ -9,7 +9,7 @@ El formato de Fecha de entrega es: yyyy-mm-dd
 Toda la información cargada irá a una base de datos, para poder acceder a ella se debe ingresar al administrador de Django.
 
 username: georg
-password: georgina85
+password: georgina1985
 
 Con esta información se podrá observar si efectivamente se está cargando la información de los formularios a la base de datos.
 
